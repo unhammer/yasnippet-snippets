@@ -4,4 +4,7 @@
 # condition: (progn (backward-char 1) (dix-transfer-enclosing-allows "when"))
 # binding: direct-keybinding
 # --
-<when>$0</when>
+<when>
+  <test><equal>$0</equal></test>
+  
+</when>

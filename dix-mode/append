@@ -1,0 +1,7 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: <append> element
+# key: a
+# condition: (progn (backward-char 1) (dix-transfer-enclosing-allows "append"))
+# binding: direct-keybinding
+# --
+<append n="$1">$0</append>

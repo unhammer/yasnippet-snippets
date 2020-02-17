@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: <match/select>
+# key: s
+# condition: (progn (backward-char 1) (dix-is-lrx))
+# binding: direct-keybinding
+# --
+<match${1: lemma="$2"} tags="${3:*}"><select lemma="$4"/></match>$0

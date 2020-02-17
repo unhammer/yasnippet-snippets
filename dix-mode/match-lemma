@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: <match lemma>
+# key: l
+# condition: (progn (backward-char 1) (dix-is-lrx))
+# binding: direct-keybinding
+# --
+<match lemma="$1"/>
